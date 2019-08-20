@@ -23,14 +23,19 @@ namespace name_sorter2 {
 
             var a = 2;
             var b = 3;
-      
+            
             var calc = new Calc();
-            var myanswer = calc.Add(a, b);
-            Console.WriteLine(myanswer);
+            
+            var answer = calc.Add(a, b);
+            Console.WriteLine(answer);
             var answer = calc.Subtract(a, b);
             Console.WriteLine(answer);
-//Examples of Multiply and Divide  
+            var answer = calc.Multiply(a, b);
+            Console.WriteLine(answer);
+            var answer = calc.Divide(a, b);
+            Console.WriteLine(answer);
             
+
 //            var listData = GetData ("unsorted-names-list.txt");
 //            listData.ToList ().ForEach (x => Console.WriteLine (x));
 //    
